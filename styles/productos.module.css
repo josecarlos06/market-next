@@ -1,0 +1,54 @@
+.producto {
+    /* grid-template-columns: 2fr 3fr; */
+    padding: 1rem;
+
+}
+
+.imagen{
+    display: block;
+    margin: 0 auto;
+}
+.contenido {
+    padding: 2rem;
+
+}
+.contenido h3 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: var(--primaryDark);
+    max-height: 6rem;
+}
+.descripcion {
+    max-height: 5rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    overflow: hidden;
+    font-size: 1.5rem;
+}
+.precio {
+    color: var(--primaryDark);
+    font-size: 3rem;
+    margin: 0;
+    font-weight: 900;
+}
+.enlace {
+    margin-top: 2rem;
+    display: block;
+    background-color: var(--black);
+    color: var(--white);
+    text-decoration: none;
+    padding: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 700;
+    transition-property: background-color;
+    transition-duration: 300ms;
+
+
+}
+.enlace:hover {
+    background-color: var(--second);
+}
+
